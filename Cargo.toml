@@ -1,16 +1,19 @@
 [package]
-name = "tokio-serde-json"
-version = "0.3.0"
+name = "tokio-serde-codecs"
+version = "0.1.0"
 edition = "2018"
-authors = ["Carl Lerche <me@carllerche.com>"]
+authors = [
+    "Artem Vorotnikov <artem@vorotnikov.me>",
+    "Carl Lerche <me@carllerche.com>",
+]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/carllerche/tokio-serde-json"
-homepage = "https://github.com/carllerche/tokio-serde-json"
-documentation = "https://docs.rs/tokio-serde-json/0.1.0"
+repository = "https://github.com/vorot93/tokio-serde-codecs"
+homepage = "https://github.com/vorot93/tokio-serde-codecs"
+documentation = "https://docs.rs/tokio-serde-codecs/0.1.0"
 description = """
-Utilities needed to easily implement a Tokio JSON transport using Serde for
-JSON serialization and deserialization of frame values.
+Serde-based codecs to create Tokio transport for
+serialization and deserialization of frame values.
 """
 
 [dependencies]
